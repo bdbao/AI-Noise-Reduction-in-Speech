@@ -1,6 +1,5 @@
 # Speech-enhancement
 ---
-[![Build Status](https://travis-ci.com/vbelz/Speech-enhancement.svg?branch=master)](https://travis-ci.com/vbelz/Speech-enhancement)
 >Duy-Bao Bui : baobuiduy.vn@gmail.com
 >
 ## Introduction
@@ -135,8 +134,6 @@ Below I show the corresponding displays converting back to time series:
 
 <img src="img/validation_timeserie_examples.png" alt="validation examples timeserie" title="Time serie validation examples" />
 
-You can have a look at these displays/audios in the jupyter notebook `demo_predictions.ipynb` that I provide in the `./demo_data` folder.
-
 Below, I show the corresponding gif of the spectrogram denoising gif (top of the repository) in the time serie domain.
 
 <img src="img/denoise_ts_10classes.gif" alt="Timeserie denoising" title="Speech enhancement"/>
@@ -168,7 +165,6 @@ Below some examples:
 * Modes of the program (Possible OPTIONS):
 
 --mode: default='prediction', type=str, choices=['data_creation', 'training', 'prediction']
-
 ```
 
 Have a look at possible arguments for each option in `args.py`.

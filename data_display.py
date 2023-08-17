@@ -34,7 +34,7 @@ def make_plot_time_serie(audio,sample_rate):
     plt.title('Audio')
     plt.ylabel('Amplitude')
     plt.xlabel('Time(s)')
-    librosa.display.waveplot(audio, sr=sample_rate)
+    librosa.display.waveshow(audio, sr=sample_rate)
     return
 
 
@@ -89,19 +89,19 @@ def make_3plots_timeseries_voice_noise(clipvoicenoise,clipnoise,clipvoice, sampl
     plt.title('Audio voice + noise')
     plt.ylabel('Amplitude')
     plt.xlabel('Time(s)')
-    librosa.display.waveplot(clipvoicenoise, sr=sample_rate)
+    librosa.display.waveshow(clipvoicenoise, sr=sample_rate)
     plt.ylim(-0.05, 0.05)
     plt.subplot(3, 1, 2)
     plt.title('Audio predicted voice')
     plt.ylabel('Amplitude')
     plt.xlabel('Time(s)')
-    librosa.display.waveplot(clipnoise, sr=sample_rate)
+    librosa.display.waveshow(clipnoise, sr=sample_rate)
     plt.ylim(-0.05, 0.05)
     plt.subplot(3, 1, 3)
     plt.title('Audio true voice')
     plt.ylabel('Amplitude')
     plt.xlabel('Time(s)')
-    librosa.display.waveplot(clipvoice, sr=sample_rate)
+    librosa.display.waveshow(clipvoice, sr=sample_rate)
     plt.ylim(-0.05, 0.05)
 
     return
