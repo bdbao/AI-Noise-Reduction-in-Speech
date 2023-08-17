@@ -1,9 +1,7 @@
 # Speech-enhancement
 ---
 [![Build Status](https://travis-ci.com/vbelz/Speech-enhancement.svg?branch=master)](https://travis-ci.com/vbelz/Speech-enhancement)
->Vincent Belz : vincent.belz@gmail.com
->
->Published in towards data science : [Speech-enhancement with Deep learning](https://towardsdatascience.com/speech-enhancement-with-deep-learning-36a1991d3d8d)
+>Duy-Bao Bui : baobuiduy.vn@gmail.com
 >
 ## Introduction
 **This project aims at building a speech enhancement system to attenuate environmental noise.**
@@ -174,27 +172,3 @@ Below some examples:
 ```
 
 Have a look at possible arguments for each option in `args.py`.
-
-## References
-
->Jansson, Andreas, Eric J. Humphrey, Nicola Montecchio, Rachel M. Bittner, Aparna Kumar and Tillman Weyde.**Singing Voice Separation with Deep U-Net Convolutional Networks.** *ISMIR* (2017).
->
->[https://ejhumphrey.com/assets/pdf/jansson2017singing.pdf]
-
->Grais, Emad M. and Plumbley, Mark D., **Single Channel Audio Source Separation using Convolutional Denoising Autoencoders** (2017).
->
->[https://arxiv.org/abs/1703.08019]
-
->Ronneberger O., Fischer P., Brox T. (2015) **U-Net: Convolutional Networks for Biomedical Image Segmentation**. In: Navab N., Hornegger J., Wells W., Frangi A. (eds) *Medical Image Computing and Computer-Assisted Intervention – MICCAI 2015*. MICCAI 2015. Lecture Notes in Computer Science, vol 9351. Springer, Cham
->
->[https://arxiv.org/abs/1505.04597]
-
-> K. J. Piczak. **ESC: Dataset for Environmental Sound Classification**. *Proceedings of the 23rd Annual ACM Conference on Multimedia*, Brisbane, Australia, 2015.
->
-> [DOI: http://dx.doi.org/10.1145/2733373.2806390]
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
