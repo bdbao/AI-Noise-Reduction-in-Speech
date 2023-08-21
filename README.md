@@ -23,11 +23,10 @@ The project is decomposed in three modes: `data creation`, `training` and `predi
 
 To create the datasets for training, I gathered english speech clean voices  and environmental noises from different sources.
 
-The clean voices were mainly gathered from [LibriSpeech](http://www.openslr.org/12/): an ASR corpus based on public domain audio books. I used as well some datas from [SiSec](https://sisec.inria.fr/sisec-2015/2015-two-channel-mixtures-of-speech-and-real-world-background-noise/).
-The environmental noises were gathered from [ESC-50 dataset](https://github.com/karoldvl/ESC-50) or [https://www.ee.columbia.edu/~dpwe/sounds/](https://www.ee.columbia.edu/~dpwe/sounds/).  
+The clean voices were mainly gathered from [LibriSpeech](https://openslr.org/83/): an ASR corpus based on public domain audio books. I used as well some datas from [Kaggle](https://www.kaggle.com/datasets/earth16/libri-speech-noise-dataset).
+The environmental noises were gathered from [Free Sound Efect  dataset](https://www.freesoundeffects.com/).  
 
- For this project, I focused on 10 classes of environmental noise: **tic clock**, **foot steps**, **bells**, **handsaw**, **alarm**, **fireworks**, **insects**, **brushing teeth**, **vaccum cleaner** and **snoring**. These classes are illustrated in the image below
- (I created this image using pictures from [https://unsplash.com](https://unsplash.com)).
+ Some environmental noise of the project is in below figure:
 
 <img src="img/classes_noise.png" alt="classes of environmental noise used" title="classes of environmental noise" />
 
