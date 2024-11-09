@@ -8,7 +8,6 @@
 <img src="img/denoise_10classes.gif" alt="Spectrogram denoising" title="Speech enhancement"/>
 
 
-
 Audios have many different ways to be represented, going from raw time series to time-frequency decompositions.
 The choice of the representation is crucial for the performance of your system.
 Among time-frequency decompositions, Spectrograms have been proved to be a useful representation for audio processing. They consist in 2D images representing sequences of Short Time Fourier Transform (STFT) with time and frequency as axes, and brightness representing the strength of a frequency component at each time frame. In such they appear a natural domain to apply the CNNS architectures for images directly to sound. Between magnitude and phase spectrograms, magnitude spectrograms contain most the structure of the signal. Phase spectrograms appear to show only little temporal and spectral regularities.
@@ -95,7 +94,7 @@ repository.
 
 <img src="img/validation_spec_examples.png" alt="validation examples" title="Spectrogram validation examples" />
 
-Let's hear the results converted back to sounds:
+<!-- Let's hear the results converted back to sounds:
 
 > Audios for Alarm example:
 
@@ -152,7 +151,7 @@ Below some examples:
 
 [Input example test 2](https://vbelz.github.io/Speech-enhancement/demo_data/test/noisy_voice_long_t1.wav)
 
-[Predicted output example test 2](https://vbelz.github.io/Speech-enhancement/demo_data/save_predictions/denoise_t1.wav)
+[Predicted output example test 2](https://vbelz.github.io/Speech-enhancement/demo_data/save_predictions/denoise_t1.wav) -->
 
 ## How to use?
 
